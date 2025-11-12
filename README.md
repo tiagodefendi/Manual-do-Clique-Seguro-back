@@ -12,5 +12,4 @@ O Manual do Clique Seguro é um **Objeto de Aprendizagem** desenvolvido com intu
 - **TypeScript**: Linguagem de programação que adiciona tipagem estática ao JavaScript.
 - **Prisma**: ORM para TypeScript e JavaScript que facilita a interação com bancos de dados relacionais.
 - **PostgreSQL**: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar os dados do aplicativo.
-- **Docker**: Plataforma para desenvolvimento, envio e execução de aplicações em contêineres.
 - **Supabase**: Plataforma de backend como serviço que oferece autenticação, banco de dados e armazenamento.
