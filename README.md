@@ -21,10 +21,10 @@ Requisitos de Apendizagem:
 - Entender os riscos de compartilhar informações pessoais online.
 
 Mapa Conceitual:
-- O Mapa Conceitual do Objeto de Aprendizagem pode ser visualizado [aqui](https://miro.com/app/board/uXjVM2pX1jU=/).
+- O Mapa Conceitual do Objeto de Aprendizagem pode ser visualizado [aqui](https://cmapscloud.ihmc.us/viewer/cmap/21XSF8KCB-2SHFCY-BP56L1).
 
 Modelo Instrucional:
-- O Modelo Instrucional do Objeto de Aprendizagem pode ser visualizado [aqui](https://miro.com/app/board/uXjVM2pX1jU=/).
+- O Modelo Instrucional do Objeto de Aprendizagem pode ser visualizado [aqui](https://drive.google.com/file/d/1do2nlK1ncjFqW222IG9ootDm0ZIjGhbW/view?usp=sharing).
 
 ## Tecnologias Utilizadas
 
@@ -32,4 +32,4 @@ Modelo Instrucional:
 - **TypeScript**: Linguagem de programação que adiciona tipagem estática ao JavaScript.
 - **Prisma**: ORM para TypeScript e JavaScript que facilita a interação com bancos de dados relacionais.
 - **PostgreSQL**: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar os dados do aplicativo.
-- **Supabase**: Plataforma de backend como serviço que oferece autenticação, banco de dados e armazenamento.
+- **Supabase**: Plataforma de backend com serviço que oferece autenticação, banco de dados e armazenamento.
