@@ -1,0 +1,24 @@
+{
+    "titulo": "A Estrutura do Link: Reconhecendo Endereços Oficiais",
+    "conteudo": "Saber identificar o padrão claro e limpo de um link oficial é crucial para evitar golpes de Phishing. Links fraudulentos são longos, usam traços e palavras de urgência para confundir o usuário.",
+    "exemplo_ludico": "Imagine que você precisa ir ao Correio. Você sabe que o endereço oficial é simples e fácil de lembrar. Um link seguro na internet é como o endereço oficial (Ex: correios.com.br). Ele é limpo e direto. Um link suspeito é um endereço falso, criado para enganar. O golpista coloca o nome \"Correios\" no meio de uma confusão de letras, números e traços para te confundir (Ex: correios-br-urgente-dados.xyz). O link real é o nome da empresa antes do final (.com.br).",
+    "explicacao_contextualizada": "Saber identificar o padrão de um link oficial é a forma mais eficaz de evitar cair em Phishing.\n\nUm link legítimo tem um padrão claro, que é o nome da marca que você conhece, seguido de um ponto e a extensão (geralmente .com.br ou .com).\n\n- **Padrão de Golpe:** Links falsos tentam te confundir usando:\n  - Muitos traços (-) no meio da frase.\n  - Termos de urgência (como \"urgente\", \"seguranca\", \"agora\").\n  - Finais estranhos (como .xyz, .net, .info).\n\n**Ação:** Sempre olhe para o início do link. O nome da empresa deve estar logo antes do primeiro ponto que aparece na extensão final (o .com.br). Se o nome da empresa vier depois de um monte de traços, é golpe.",
+    "pergunta": {
+        "enunciado": "Você recebeu uma mensagem urgente sobre seu imposto de renda. Qual desses links você deve desconfiar imediatamente por não seguir o padrão de um endereço oficial?",
+        "alternativas": {
+            "a": {
+                "texto": "https://www.receita.fazenda.gov.br (Endereço oficial e curto).",
+                "explicacao": "Esta alternativa está incorreta. Este link é curto, organizado e utiliza a extensão oficial de órgãos governamentais (.gov.br)."
+            },
+            "b": {
+                "texto": "https://receita-urgente-pendencia-agora.net/documento (Endereço longo e cheio de traços).",
+                "explicacao": "Esta alternativa está correta. Links legítimos são organizados e limpos. O padrão de usar traços, palavras como 'urgente' e finais estranhos (.net ou .xyz) são fortes sinais de um link falso criado para um golpe."
+            },
+            "c": {
+                "texto": "https://www.gov.br/receita-federal (Endereço governamental e organizado).",
+                "explicacao": "Esta alternativa está incorreta. Este link é limpo e utiliza um subdomínio de um domínio governamental (.gov.br), seguindo um padrão oficial."
+            }            
+        },
+        "resposta_correta": "b"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "titulo": "Phishing: O Anzol Digital que Rouba Suas Senhas",
+    "conteudo": "Phishing é uma técnica de golpe que usa iscas atraentes (como ofertas ou alertas urgentes de banco) para induzir a vítima a clicar em links falsos, com o objetivo de roubar informações sigilosas.",
+    "exemplo_ludico": "Pense no Phishing (lê-se fíchin) como a arte da pesca com isca. O criminoso digital é um pescador que usa algo muito atraente (a isca), como uma falsa notificação de banco, um prêmio ou uma oferta incrível. O link ou botão para clicar é o anzol escondido. Ao invés de você fisgar um peixe, é você quem é fisgado! Assim que você clica, o golpista puxa o anzol e leva suas informações ou sua conta.",
+    "explicacao_contextualizada": "O Phishing usa a confiança para roubar dados, dinheiro e até a sua identidade. Ocorre das seguintes formas:\n\n- **E-mail Falso:** Uma mensagem que parece ser do seu banco, com o logotipo e saudação corretos, mas que te direcional para um site falso.\n- **Links Estranhos:** Mensagens no WhatsApp com endereços enormes, confusos e cheios de números.\n- **Pressa e Medo:** A isca sempre pede que você clique para resolver algo urgente ou para aproveitar a última chance de uma promoção.\n\nSe o endereço do site que abrir for ligeiramente diferente do original (ex: banco-do-brasil.xyz em vez de bb.com.br), é Phishing.",
+    "pergunta": {
+        "enunciado": "Você recebeu um e-mail urgente dizendo que sua conta bancária será bloqueada e tem um botão escrito \"CLIQUE AQUI PARA RESOLVER\". Qual é o objetivo do golpista com esse botão de Phishing?",
+        "alternativas": {
+            "a": {
+                "texto": "Apenas informar que a conta está em atraso.",
+                "explicacao": "Esta alternativa está incorreta. O objetivo do Phishing nunca é apenas informar; é sempre roubar dados ou dinheiro."
+            },
+            "b": {
+                "texto": "Fazer você clicar e entrar em um site falso para que você digite sua senha e ele possa roubá-la.",
+                "explicacao": "Esta alternativa está correta. O Phishing é uma tentativa de roubo de senha. O botão leva você a uma página de mentira que imita a original para capturar suas informações sigilosas."
+            },
+            "c": {
+                "texto": "Mudar a cor do seu aplicativo.",
+                "explicacao": "Esta alternativa está incorreta. O golpista está interessado em suas informações financeiras e não em alterar a aparência do seu aplicativo."
+            }            
+        },
+        "resposta_correta": "b"
+    }
+}
