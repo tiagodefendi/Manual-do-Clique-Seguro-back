@@ -1,0 +1,24 @@
+{
+    "titulo": "Golpes com Inteligência Artificial: A Ameaça da Voz e do Rosto Falso",
+    "conteudo": "A Inteligência Artificial elevou o nível dos golpes, permitindo que criminosos criem áudios e vídeos (Deepfakes) que imitam perfeitamente pessoas de confiança, tornando a manipulação mais difícil de detectar.",
+    "exemplo_ludico": "Pense na Inteligência Artificial (IA) como um ator profissional muito talentoso. Esse ator consegue imitar a voz de qualquer pessoa com perfeição — pode ser a voz do seu filho, do seu gerente do banco ou até de um apresentador de TV. O golpe usando IA é como receber uma ligação do seu filho dizendo que está em apuros, mas você ouve a voz dele e não o vê. Como a voz é idêntica, o choque e a pressa de ajudar fazem você ignorar os outros sinais de que algo está errado.",
+    "explicacao_contextualizada": "A IA é usada por golpistas para gerar áudios e vídeos (Deepfakes) que parecem 100% reais, tornando os golpes de Engenharia Social (manipulação) muito mais difíceis de detectar.\n\n- **Voz Imitação:** O criminoso usa um software para copiar a voz de um parente seu (obtida em vídeos de redes sociais ou áudios antigos) e faz um áudio pedindo PIX urgente, alegando estar com o celular quebrado.\n- **Vídeo Falso:** Em casos mais avançados, a IA pode criar um vídeo falso de alguém conhecido.\n\n**Regra de Ouro:** Se a pessoa está pedindo dinheiro de forma urgente, por um canal inesperado (com voz ou vídeo, mas sem ser uma chamada de vídeo oficial), desligue e ligue de volta para o número que você já tem salvo.",
+    "pergunta": {
+        "enunciado": "O que torna os golpes que usam a Inteligência Artificial (IA) especialmente perigosos e difíceis de identificar?",
+        "alternativas": {
+            "a": {
+                "texto": "A IA envia muitos vírus para o celular.",
+                "explicacao": "Esta alternativa está incorreta. Embora os golpes possam envolver vírus, o maior perigo da IA é a criação de conteúdo falso (áudio e vídeo) que engana a vítima."
+            },
+            "b": {
+                "texto": "A IA faz com que a voz, o rosto ou a mensagem do golpista pareçam exatamente como os de uma pessoa que você confia.",
+                "explicacao": "Esta alternativa está correta. A IA torna a mentira extremamente parecida com a verdade, usando a voz e a imagem de alguém conhecido para quebrar sua confiança e induzir o erro."
+            },
+            "c": {
+                "texto": "A IA faz a internet ficar mais lenta.",
+                "explicacao": "Esta alternativa está incorreta. A lentidão da internet não é o principal risco da IA; o risco é a manipulação e a fraude baseada em falsificação de identidade."
+            }            
+        },
+        "resposta_correta": "b"
+    }
+}

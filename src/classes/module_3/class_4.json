@@ -1,0 +1,24 @@
+{
+    "titulo": "Permissões de Aplicativos: Seja o Porteiro do Seu Celular",
+    "conteudo": "Gerenciar as permissões de aplicativos é fundamental para a privacidade. Um aplicativo só deve ter acesso às áreas do seu celular que são estritamente necessárias para a sua função principal.",
+    "exemplo_ludico": "Imagine que você contratou um pintor para pintar a parede da sua sala. Ele precisa entrar na sala, certo? Isso é normal. Mas, e se de repente ele pedisse a chave do seu cofre, ou quisesse entrar no seu quarto de dormir para mexer nas suas gavetas? Você acharia estranho e diria \"Não!\". No celular é igual: o aplicativo é o pintor. Ele só deve ter permissão para entrar onde é necessário para o trabalho dele.",
+    "explicacao_contextualizada": "Quando você instala um aplicativo novo, ele pede \"autorização\" para acessar partes do seu celular (Câmera, Microfone, Agenda de Contatos, Localização).\n\nVocê deve agir como um porteiro rigoroso:\n\n- **Faz sentido?** Se você instalou um aplicativo de Fotos, ele precisa usar a câmera. Ok.\n- **É suspeito?** Se você instalou um aplicativo de Lanterna ou uma Calculadora, e ele pede acesso aos seus Contatos ou à sua Localização, desconfie! Uma lanterna não precisa saber quem são seus amigos nem onde você mora.\n\n**Regra:** Se o pedido não tem a ver com a função do aplicativo, Negue a permissão.",
+    "pergunta": {
+        "enunciado": "Você baixou um aplicativo simples de Lanterna para usar no escuro. Logo ao abrir, o aplicativo pede permissão para acessar a sua Localização e os seus Contatos. O que você deve fazer?",
+        "alternativas": {
+            "a": {
+                "texto": "Permitir tudo imediatamente, pois o aplicativo não funcionará se você não aceitar todas as regras.",
+                "explicacao": "Esta alternativa está incorreta. Você não deve permitir tudo. Você tem o direito de negar permissões que não são essenciais para o funcionamento básico do aplicativo."
+            },
+            "b": {
+                "texto": "Negar essas permissões, pois uma lanterna só precisa da luz e não tem motivo para saber onde você está ou quem você conhece.",
+                "explicacao": "Esta alternativa está correta. Você tem o controle. Se um aplicativo pede acesso a dados que não têm nada a ver com o que ele faz (como uma lanterna querendo ver seus contatos), negue, pois isso pode ser uma tentativa de coletar seus dados sem necessidade."
+            },
+            "c": {
+                "texto": "Desinstalar todos os outros aplicativos do celular para liberar espaço para a lanterna funcionar com segurança.",
+                "explicacao": "Esta alternativa está incorreta. A segurança não está relacionada ao espaço, mas sim às permissões que você concede ao aplicativo. Não há necessidade de desinstalar outros aplicativos."
+            }            
+        },
+        "resposta_correta": "b"
+    }
+}

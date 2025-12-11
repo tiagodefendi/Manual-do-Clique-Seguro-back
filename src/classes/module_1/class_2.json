@@ -1,0 +1,24 @@
+{
+    "titulo": "O Valor dos Dados: Por Que Fotos e Documentos São o Alvo",
+    "conteudo": "Ataques cibernéticos não visam apenas dinheiro, mas sim o acesso a informações pessoais e memórias digitais, que são, muitas vezes, insubstituíveis e valiosas para o criminoso.",
+    "exemplo_ludico": "Pense no seu celular ou computador como uma Caixa de Tesouros. Dentro dela, você guarda coisas que ninguém mais tem: o vídeo do primeiro aniversário do neto, as fotos da viagem inesquecível, os documentos importantes e a agenda de telefones de toda a vida. Esses são seus dados únicos e importantes. O golpista não quer apenas seu dinheiro, ele quer essa Caixa de Tesouros inteira. Ele usa o golpe para quebrar seu cadeado e levar tudo, deixando um grande vazio digital.",
+    "explicacao_contextualizada": "Quando um criminoso consegue invadir seu aparelho através de um link falso ou vírus, ele pode:\n\n- **Roubar:** Copiar seus documentos (RG, CPF, comprovantes de endereço) para usar sua identidade.\n- **Destruir:** Apagar ou danificar os arquivos que são importantes (fotos, vídeos e trabalhos).\n- **Sequestrar:** Bloquear o seu acesso a esses arquivos e só devolver se você pagar um resgate (isso tem um nome técnico: ransomware).\n\nA perda desses dados únicos pode ser muito dolorosa, pois são memórias e informações que não podem ser recuperadas facilmente.",
+    "pergunta": {
+        "enunciado": "Ao sofrer um ataque digital, por que a perda de \"dados únicos e importantes\" (como fotos de família e documentos) é considerada um dos piores prejuízos?",
+        "alternativas": {
+            "a": {
+                "texto": "Porque o celular vai ficar mais lento.",
+                "explicacao": "Esta alternativa está incorreta porque a lentidão é um sintoma técnico e não o maior prejuízo, que está relacionado à perda ou roubo de informações."
+            },
+            "b": {
+                "texto": "Porque você terá que tirar fotos novas.",
+                "explicacao": "Esta alternativa está incorreta. O problema não é o esforço de tirar novas fotos, mas sim o fato de que as memórias e documentos antigos são insubstituíveis e não podem ser recriados."
+            },
+            "c": {
+                "texto": "Porque esses dados e memórias podem ser roubados, destruídos ou usados por criminosos, sendo insubstituíveis.",
+                "explicacao": "Esta alternativa está correta. Diferente do dinheiro, que se recupera, as fotos, documentos e conversas perdidas ou roubadas são insubstituíveis e podem ser usadas para cometer fraudes com seu nome, causando prejuízos duradouros."
+            }            
+        },
+        "resposta_correta": "c"
+    }
+}
