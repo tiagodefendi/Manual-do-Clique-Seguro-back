@@ -6,30 +6,22 @@ import * as path from 'path';
 export class ClassesService {
     // MODULE =================================================================================
 
-    async getAllModules() {
+    async getAllModules(): Promise<number[]> {
         try {
-            // Caminho para desenvolvimento local
-            const srcPath = path.join(process.cwd(), 'src', 'classes');
-            // Ele vai ler: /home/tjago/Manual-do-Clique-Seguro-back/src/classes
-            const currentDir = srcPath;
-
-            // LOG 1: Veja onde o código está procurando
-            console.log("Diretório atual sendo lido:", currentDir);
+            const currentDir = path.join(process.cwd(), 'src', 'classes');
 
             const entries = await fs.readdir(currentDir, { withFileTypes: true });
-
-            // LOG 2: Veja tudo o que ele encontrou antes de filtrar
-            const allNames = entries.map(e => e.name);
-            console.log("Arquivos encontrados:", allNames);
 
             const moduleIds = entries
                 .filter(entry =>
                     entry.isDirectory() &&
                     entry.name.startsWith('module_')
                 )
-                .map(entry => entry.name);
+                // AQUI: Converte a string resultante para Number
+                .map(entry => Number(entry.name.replace('module_', '')));
 
-            return moduleIds;
+            // Como agora já são números, o sort fica mais simples
+            return moduleIds.sort((a, b) => a - b);
 
         } catch (error) {
             console.error("Erro ao buscar módulos:", error);
