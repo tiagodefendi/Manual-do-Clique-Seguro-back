@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { promises as fs } from 'fs';
 import * as path from 'path';
 
@@ -59,6 +59,26 @@ export class ClassesService {
 
 
     async getClassById(moduleId: string, classId: string) {
-        // Lógica para obter uma classe específica pelo ID
+        try {
+            const filePath = path.join(
+                process.cwd(),
+                'src',
+                'classes',
+                `module_${moduleId}`,
+                `class_${classId}.json`
+            );
+
+            const fileContent = await fs.readFile(filePath, 'utf-8');
+
+            return JSON.parse(fileContent);
+
+        } catch (error) {
+            if (error.code === 'ENOENT') {
+                throw new NotFoundException(`Aula ${classId} não encontrada no módulo ${moduleId}`);
+            }
+
+            console.error("Erro ao ler aula:", error);
+            throw error;
+        }
     }
 }

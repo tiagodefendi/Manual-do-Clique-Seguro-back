@@ -3,7 +3,6 @@ import { ClassesService } from './classes.service';
 
 @Controller('classes')
 export class ClassesController {
-    // O controlador pode ser expandido com endpoints conforme necessário
     constructor(private readonly classesService: ClassesService) {}
 
     @Get('modules')
@@ -14,5 +13,13 @@ export class ClassesController {
     @Get('modules/:moduleId/classes')
     async getAllClasses(@Param('moduleId') moduleId: string) {
         return this.classesService.getAllClasses(moduleId);
+    }
+
+    @Get('modules/:moduleId/classes/:classId')
+    async getClassById(
+        @Param('moduleId') moduleId: string,
+        @Param('classId') classId: string
+    ) {
+        return this.classesService.getClassById(moduleId, classId);
     }
 }
