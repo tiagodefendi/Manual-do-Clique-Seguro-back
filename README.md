@@ -63,9 +63,9 @@ Para utilizar o Manual do Clique Seguro, siga os passos abaixo:
     - Preencha as variáveis de ambiente no arquivo `.env` com suas configurações.
 5. Inicie o servidor:
     ```bash
-    npm run start
+    npm run start:dev
     # ou
-    yarn start
+    yarn start:dev
     ```
 
 ## Tecnologias Utilizadas
