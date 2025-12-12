@@ -4,4 +4,10 @@ import { ClassesService } from './classes.service';
 @Controller('classes')
 export class ClassesController {
     // O controlador pode ser expandido com endpoints conforme necessário
+    constructor(private readonly classesService: ClassesService) {}
+
+    @Get('modules')
+    async getAllModules() {
+        return this.classesService.getAllModules();
+    }
 }
