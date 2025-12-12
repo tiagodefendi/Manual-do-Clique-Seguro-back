@@ -7,32 +7,35 @@ export class ClassesService {
     // MODULE =================================================================================
 
     async getAllModules() {
-    try {
-        const currentDir = __dirname;
+        try {
+            // Caminho para desenvolvimento local
+            const srcPath = path.join(process.cwd(), 'src', 'classes');
+            // Ele vai ler: /home/tjago/Manual-do-Clique-Seguro-back/src/classes
+            const currentDir = srcPath;
 
-        // LOG 1: Veja onde o código está procurando
-        console.log("Diretório atual sendo lido:", currentDir);
+            // LOG 1: Veja onde o código está procurando
+            console.log("Diretório atual sendo lido:", currentDir);
 
-        const entries = await fs.readdir(currentDir, { withFileTypes: true });
+            const entries = await fs.readdir(currentDir, { withFileTypes: true });
 
-        // LOG 2: Veja tudo o que ele encontrou antes de filtrar
-        const allNames = entries.map(e => e.name);
-        console.log("Arquivos encontrados:", allNames);
+            // LOG 2: Veja tudo o que ele encontrou antes de filtrar
+            const allNames = entries.map(e => e.name);
+            console.log("Arquivos encontrados:", allNames);
 
-        const moduleIds = entries
-            .filter(entry =>
-                entry.isDirectory() &&
-                entry.name.startsWith('module_')
-            )
-            .map(entry => entry.name);
+            const moduleIds = entries
+                .filter(entry =>
+                    entry.isDirectory() &&
+                    entry.name.startsWith('module_')
+                )
+                .map(entry => entry.name);
 
-        return moduleIds;
+            return moduleIds;
 
-    } catch (error) {
-        console.error("Erro ao buscar módulos:", error);
-        return [];
+        } catch (error) {
+            console.error("Erro ao buscar módulos:", error);
+            return [];
+        }
     }
-}
 
     // CLASSES ================================================================================
 
