@@ -17,11 +17,9 @@ export class ClassesService {
                     entry.isDirectory() &&
                     entry.name.startsWith('module_')
                 )
-                // AQUI: Converte a string resultante para Number
                 .map(entry => Number(entry.name.replace('module_', '')));
 
-            // Como agora já são números, o sort fica mais simples
-            return moduleIds.sort((a, b) => a - b);
+            return moduleIds.sort();
 
         } catch (error) {
             console.error("Erro ao buscar módulos:", error);
@@ -31,9 +29,34 @@ export class ClassesService {
 
     // CLASSES ================================================================================
 
-    async getAllClasses(moduleId: string) {
-        // Lógica para obter todas as classes
+    async getAllClasses(moduleId: string): Promise<number[]> {
+        try {
+            const moduleDir = path.join(process.cwd(), 'src', 'classes', `module_${moduleId}`);
+
+            const entries = await fs.readdir(moduleDir, { withFileTypes: true });
+
+            const classIds = entries
+                .filter(entry =>
+                    entry.isFile() &&
+                    entry.name.startsWith('class_') &&
+                    entry.name.endsWith('.json')
+                )
+                .map(entry => {
+                    const idString = entry.name
+                        .replace('class_', '')
+                        .replace('.json', '');
+
+                    return Number(idString);
+                });
+
+            return classIds.sort();
+
+        } catch (error) {
+            console.error(`Erro ao buscar aulas do módulo ${moduleId}:`, error);
+            return [];
+        }
     }
+
 
     async getClassById(moduleId: string, classId: string) {
         // Lógica para obter uma classe específica pelo ID
