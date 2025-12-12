@@ -10,12 +10,12 @@ export class ClassesController {
         return this.classesService.getAllModules();
     }
 
-    @Get('modules/:moduleId/classes')
+    @Get('module/:moduleId/classes')
     async getAllClasses(@Param('moduleId') moduleId: string) {
         return this.classesService.getAllClasses(moduleId);
     }
 
-    @Get('modules/:moduleId/classes/:classId')
+    @Get('module/:moduleId/class/:classId')
     async getClassById(
         @Param('moduleId') moduleId: string,
         @Param('classId') classId: string
