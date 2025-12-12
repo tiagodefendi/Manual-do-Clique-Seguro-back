@@ -1,0 +1,24 @@
+{
+    "titulo": "Roubo de Conta de WhatsApp: O Sequestro da Sua Identidade Digital",
+    "conteudo": "O roubo de contas em aplicativos de mensagens não resulta apenas na perda de acesso, mas na apropriação da sua identidade para aplicar golpes contra seus contatos, causando prejuízos emocionais e financeiros.",
+    "exemplo_ludico": "Imagine seu WhatsApp como uma caixa de correio onde só chegam cartas de quem você ama. Cada mensagem, foto e áudio é uma conversa preciosa que faz parte da sua história. O roubo de conta é como um sequestro: o golpista consegue o código de acesso e muda a fechadura, te deixando trancado para fora da sua própria caixa de correio. Ele assume seu lugar e começa a ler e usar todas as suas cartas (conversas).",
+    "explicacao_contextualizada": "O roubo de contas é muito comum, especialmente no WhatsApp, e é feito através de ligações, SMS ou links falsos (phishing). Quando o golpista rouba sua conta:\n\n- **Perda Imediata:** Você não consegue mais entrar no seu aplicativo.\n- **Perda de Memória:** Todas as conversas e mídias que não estavam salvas (o backup) podem ser perdidas para sempre.\n- **Dano a Terceiros:** O criminoso usa sua foto e nome para pedir dinheiro emprestado ou aplicar o golpe do PIX para todos os seus amigos e familiares, usando a sua confiança.\n\nProteger sua conta é proteger suas conversas, suas lembranças e, principalmente, a segurança financeira de quem confia em você.",
+    "pergunta": {
+        "enunciado": "Se você tem todas as suas conversas e fotos da família no WhatsApp, por que o roubo dessa conta causa um dano emocional e social tão grande?",
+        "alternativas": {
+            "a": {
+                "texto": "Porque você precisará comprar um celular novo.",
+                "explicacao": "Esta alternativa está incorreta. O prejuízo é a perda de dados e o uso da identidade, e não a necessidade de trocar o aparelho."
+            },
+            "b": {
+                "texto": "Porque, além de perder suas lembranças, sua conta será usada para enganar e prejudicar seus contatos.",
+                "explicacao": "Esta alternativa está correta. O maior dano é duplo: a perda das memórias (conversas preciosas) e o risco de a conta ser usada como ferramenta de fraude contra amigos e familiares."
+            },
+            "c": {
+                "texto": "Porque você terá que digitar a senha muitas vezes para recuperá-la.",
+                "explicacao": "Esta alternativa está incorreta. A dificuldade técnica na recuperação não é o principal dano, que se concentra na perda de dados e no uso da identidade para golpes."
+            }            
+        },
+        "resposta_correta": "b"
+    }
+}

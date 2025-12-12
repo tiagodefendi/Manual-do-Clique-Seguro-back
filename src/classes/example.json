@@ -1,0 +1,24 @@
+{
+    "titulo": "Aqui vai o título da aula.",
+    "conteudo": "Aqui vai o conteúdo da aula.",
+    "exemplo_ludico": "Aqui vai um exemplo lúdico relacionado do assunto.",
+    "explicacao_contextualizada": "Aqui vai uma explicação contextualizada do assunto.",
+    "pergunta": {
+        "enunciado": "Aqui vai o enunciado da pergunta relacionada ao conteúdo.",
+        "alternativas": {
+            "a": {
+                "texto": "Aqui vai o texto da alternativa A.",
+                "explicacao": "Esta alternativa está incorreta porque..."
+            },
+            "b": {
+                "texto": "Aqui vai o texto da alternativa B.",
+                "explicacao": "Esta alternativa está correta porque..."
+            },
+            "c": {
+                "texto": "Aqui vai o texto da alternativa C.",
+                "explicacao": "Esta alternativa está incorreta porque..."
+            }            
+        },
+        "resposta_correta": "b"
+    }
+}

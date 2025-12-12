@@ -1,0 +1,24 @@
+{
+    "titulo": "Gerenciador de Senhas: O Seu Chaveiro Digital Seguro",
+    "conteudo": "Um Gerenciador de Senhas é uma ferramenta crucial que resolve o problema de criar e memorizar senhas fortes, garantindo que cada uma de suas contas digitais tenha uma chave única e segura.",
+    "exemplo_ludico": "Imagine um Chaveiro Digital que trabalha para você. Suas senhas são suas chaves, e cada site precisa de uma chave diferente. Em vez de você anotar todas as chaves em um caderninho (que pode ser perdido) ou usar a mesma chave para todas as portas, você entrega a tarefa para o Chaveiro Digital. Ele faz o seguinte:\n\n- Cria chaves longas e impossíveis de copiar para cada porta.\n- Guarda todas em um cofre seguro (o gerenciador).\n- Você só precisa lembrar da Chave Mestra que abre esse cofre.",
+    "explicacao_contextualizada": "Um Gerenciador de Senhas é um aplicativo ou programa que resolve o maior problema de segurança: a repetição de senhas e a dificuldade de memorizar senhas fortes.\n\nEle faz o trabalho difícil:\n\n- **Criação:** Gera senhas complexas (ex: &%R2PqA7$jD#) que são impossíveis de adivinhar.\n- **Armazenamento:** Guarda todas essas senhas em um cofre criptografado (máxima segurança).\n- **Facilidade:** Preenche automaticamente a senha quando você visita o site correto, evitando que você digite.\n\nCom o Gerenciador, se uma senha vazar, todas as outras senhas estarão seguras, porque são únicas. Você só precisa lembrar de uma: a Senha Mestra do gerenciador.",
+    "pergunta": {
+        "enunciado": "Qual é a principal vantagem de usar um Gerenciador de Senhas em vez de anotar todas as suas senhas em um papel ou usar a mesma senha para todos os sites?",
+        "alternativas": {
+            "a": {
+                "texto": "Ele faz seu celular carregar mais rápido.",
+                "explicacao": "Esta alternativa está incorreta. Gerenciadores de senhas são ferramentas de segurança e não têm relação com a velocidade de carregamento da bateria do celular."
+            },
+            "b": {
+                "texto": "Ele permite que você use senhas únicas e super fortes para cada site, guardadas com segurança, bastando lembrar apenas de uma Senha Mestra.",
+                "explicacao": "Esta alternativa está correta. O Gerenciador aumenta drasticamente sua segurança, pois ele cria as senhas mais difíceis e garante que, se uma conta for invadida, todas as outras continuem protegidas por senhas diferentes."
+            },
+            "c": {
+                "texto": "Ele impede que você receba e-mails de Spam.",
+                "explicacao": "Esta alternativa está incorreta. A função de um Gerenciador de Senhas é proteger o acesso às contas, e não filtrar e-mails indesejados (Spam)."
+            }            
+        },
+        "resposta_correta": "b"
+    }
+}

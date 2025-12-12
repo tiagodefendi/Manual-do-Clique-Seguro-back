@@ -1,0 +1,24 @@
+{
+    "titulo": "Criação de Senhas Fortes: A 'Porta de Aço' da Sua Segurança",
+    "conteudo": "A segurança das suas contas depende do uso de senhas robustas. Uma senha forte é longa, combina diferentes tipos de caracteres e é difícil de ser adivinhada por humanos ou softwares de ataque.",
+    "exemplo_ludico": "Imagine que sua senha é o código de segurança do seu cofre.\n\n- **Senha Fraca (Porta Aberta):** Usar o nome do neto ou a data de nascimento é como escrever o código em cima do cofre. É a primeira coisa que um ladrão (ou computador de golpista) tenta adivinhar.\n- **Senha Forte (Porta de Aço):** A senha forte deve ser longa e misturar diferentes tipos de 'fechadura' (letras maiúsculas, minúsculas, números e símbolos).\n\nO segredo é parar de pensar em 'palavras' e começar a pensar em 'frases' que só você entende.",
+    "explicacao_contextualizada": "No ambiente digital, a senha é sua única defesa contra a invasão de contas.\n\n- **Tempo de Descoberta:** Computadores conseguem testar milhões de senhas curtas por segundo. Uma senha de apenas 6 dígitos (como 123456) pode ser descoberta em segundos.\n- **A Força da Frase:** Uma senha com 12 ou mais caracteres (como EuAmoCafe10ePao! ou AjudarOsNetosFazBem!) levaria milhões de anos para ser descoberta, mesmo por um supercomputador.\n\n**Regra Prática:** Crie uma frase que você não vai esquecer, e use a primeira letra de cada palavra, misturando com números e símbolos para torná-la robusta.",
+    "pergunta": {
+        "enunciado": "Qual destas opções representa o melhor exemplo de uma senha forte e segura, seguindo as dicas de comprimento e mistura de caracteres?",
+        "alternativas": {
+            "a": {
+                "texto": "Maria1960 (Nome e data de nascimento).",
+                "explicacao": "Esta alternativa está incorreta. Senhas baseadas em informações pessoais (nome, data de nascimento) são consideradas fracas e fáceis de adivinhar."
+            },
+            "b": {
+                "texto": "12345678 (Sequência numérica fácil).",
+                "explicacao": "Esta alternativa está incorreta. Sequências simples e numéricas são as mais fáceis e rápidas de serem descobertas por ataques de força bruta."
+            },
+            "c": {
+                "texto": "MeuNetoAdoraJogarFutebol2025! (Uma frase longa com números e símbolos).",
+                "explicacao": "Esta alternativa está correta. Senhas longas, que misturam letras maiúsculas, minúsculas, números e símbolos (!), são as mais difíceis de serem descobertas por golpistas ou computadores."
+            }            
+        },
+        "resposta_correta": "c"
+    }
+}

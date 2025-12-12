@@ -1,0 +1,24 @@
+{
+    "titulo": "Modo Anônimo: Limpando Seus Rastros em Aparelhos de Terceiros",
+    "conteudo": "A Janela Anônima é uma ferramenta essencial de privacidade que impede que o navegador salve seu histórico de navegação, cookies e dados de formulários em um dispositivo, sendo ideal para uso em computadores e celulares que não são seus.",
+    "exemplo_ludico": "Imagine que você está alugando um Carro por Horas (ou usando um computador que não é seu, como em uma Lan House ou na casa de um amigo). Quando você usa o Modo Anônimo no seu navegador (Google Chrome, Firefox, etc.), é como se o carro alugado tivesse uma função especial: ele não registra onde você foi. Ele não guarda o endereço (site) que você digitou nem a lista de lugares visitados. Assim, quando você devolve o carro (fecha a Janela Anônima), ele fica limpo, sem vestígios da sua passagem.",
+    "explicacao_contextualizada": "O uso da Janela Anônima é crucial para a privacidade, especialmente ao usar aparelhos públicos ou de terceiros.\n\nQuando você usa o modo normal do navegador, ele salva:\n\n- **Histórico:** Onde você navegou.\n- **Cookies:** Pequenos arquivos que \"lembram\" você (por exemplo, mantendo seu login no Facebook).\n- **Dados e Senhas:** O que você digitou em formulários (se você permitiu salvar).\n\nA Janela Anônima evita que TUDO isso seja salvo no computador ou celular. É uma medida de segurança simples e rápida, garantindo que suas informações não fiquem gravadas para o próximo usuário ver ou usar.",
+    "pergunta": {
+        "enunciado": "Quando você precisa acessar seu e-mail ou fazer uma compra em um computador que não é seu, qual ferramenta de privacidade você deve usar para que seus dados não fiquem gravados no aparelho?",
+        "alternativas": {
+            "a": {
+                "texto": "Apenas apagar o histórico no final.",
+                "explicacao": "Esta alternativa está incorreta. Apagar o histórico pode não remover completamente todos os cookies e dados temporários salvos, deixando rastros."
+            },
+            "b": {
+                "texto": "A Janela Anônima (ou Modo Privado) do navegador.",
+                "explicacao": "Esta alternativa está correta. A Janela Anônima é a maneira mais garantida de garantir que o computador ou celular de outra pessoa não grave seu histórico, senhas ou dados de login."
+            },
+            "c": {
+                "texto": "O aplicativo do celular.",
+                "explicacao": "Esta alternativa está incorreta. Usar o aplicativo no seu próprio celular resolve o problema de privacidade, mas se você estiver usando um computador que não é seu, a Janela Anônima é a ferramenta adequada."
+            }            
+        },
+        "resposta_correta": "b"
+    }
+}

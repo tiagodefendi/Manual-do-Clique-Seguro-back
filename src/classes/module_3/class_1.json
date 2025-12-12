@@ -1,0 +1,24 @@
+{
+    "titulo": "Atualização de Sistema: A Vacina do Seu Aparelho",
+    "conteudo": "As atualizações de sistema são essenciais para a segurança digital. Elas corrigem vulnerabilidades (falhas) descobertas pelos fabricantes, protegendo seu celular ou computador contra novas ameaças e invasões.",
+    "exemplo_ludico": "Pense no seu celular ou computador como o seu corpo. Assim como você toma vacinas para se proteger de doenças novas que aparecem, o seu aparelho também precisa de proteção. A Atualização de Sistema é exatamente essa vacina. Os \"vírus\" digitais mudam o tempo todo, e a atualização serve para ensinar o seu celular a se defender das ameaças novas. Se você não atualiza, é como andar na chuva sem guarda-chuva: você fica desprotegido.",
+    "explicacao_contextualizada": "Muitas pessoas têm medo de atualizar o celular achando que vai ficar lento ou pesado. Mas a verdade é o oposto: As empresas (como Samsung, Apple, Microsoft) descobrem falhas de segurança (buracos por onde os bandidos entram) e enviam a atualização para fechar esses buracos. Quando aparecer um aviso de \"Atualização Disponível\", entenda isso como um aviso de: \"Melhoria de Segurança Pronta\".\n\n**Dica:** Faça a atualização quando estiver em casa, conectado ao Wi-Fi e com o celular carregando, para não gastar seus dados móveis nem bateria.",
+    "pergunta": {
+        "enunciado": "Quando o seu celular ou computador mostra uma mensagem avisando que existe uma \"Atualização de Sistema\" disponível, qual é a atitude mais segura a tomar?",
+        "alternativas": {
+            "a": {
+                "texto": "Ignorar o aviso para sempre, pois atualizações só servem para mudar a cor dos ícones.",
+                "explicacao": "Esta alternativa está incorreta. Ignorar atualizações deixa seu aparelho vulnerável, pois as falhas de segurança não são corrigidas."
+            },
+            "b": {
+                "texto": "Aceitar e instalar a atualização, pois ela funciona como uma vacina que corrige falhas e protege contra novos vírus.",
+                "explicacao": "Esta alternativa está correta. As atualizações são correções enviadas pelo fabricante para \"tapar os buracos\" de segurança. Manter o aparelho atualizado é a forma mais básica de impedir que invasores entrem."
+            },
+            "c": {
+                "texto": "Desligar o aparelho imediatamente e levar na assistência técnica, pois esse aviso significa que ele já está com defeito.",
+                "explicacao": "Esta alternativa está incorreta. O aviso de atualização é um procedimento normal e não indica defeito. Levar à assistência técnica desnecessariamente pode ser dispendioso e demorado."
+            }            
+        },
+        "resposta_correta": "b"
+    }
+}

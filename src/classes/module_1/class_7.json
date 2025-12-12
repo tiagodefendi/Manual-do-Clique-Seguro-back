@@ -1,0 +1,24 @@
+{
+    "titulo": "Identificando Links Suspeitos: O Mapa Falso do Golpista",
+    "conteudo": "Criminosos digitais utilizam links longos, confusos e com extensões estranhas para disfarçar armadilhas (Phishing) e induzir o clique, roubando dados pessoais ou financeiros.",
+    "exemplo_ludico": "Imagine que você precisa ir a um lugar de confiança, como a Prefeitura. O endereço oficial é curto e fácil: www.prefeitura.gov.br. Um link suspeito é um mapa falso desenhado por um golpista. O endereço é enorme, cheio de números, traços e letras estranhas (ex: prefeitura-urgente-dados-123.xyz). Esse mapa não te leva ao local seguro; ele te leva para a armadilha do golpista.",
+    "explicacao_contextualizada": "No celular, o endereço de um site (o link) sempre aparece na barra de cima ou quando você clica no botão.\n\nOs links suspeitos usam a confusão para fazer você clicar rápido:\n\n- **Tamanho e Confusão:** Eles são longos e bagunçados propositalmente, para que o olho não perceba o erro no nome da empresa.\n- **Finais Estranhos:** Terminam com extensões incomuns como .xyz, .biz, ou .info, em vez de .com.br ou .org.\n\n**Dica de Ouro:** Antes de clicar, passe o dedo sobre o link no celular (ou o mouse no computador). O endereço de verdade aparecerá no canto da tela. Se for longo e estranho, não clique.",
+    "pergunta": {
+        "enunciado": "Você recebeu uma mensagem com dois endereços. Qual deles é o mais provável de ser um link suspeito (armadilha)?",
+        "alternativas": {
+            "a": {
+                "texto": "https://www.bancoficial.com.br",
+                "explicacao": "Esta alternativa está incorreta. Este link é curto, limpo e usa uma extensão comum (.com.br), características de um endereço oficial."
+            },
+            "b": {
+                "texto": "http://banc-seguranca-urgente-clique-aqui.net/546",
+                "explicacao": "Esta alternativa está correta. Links suspeitos são geralmente longos, usam traços (-) e números e têm finais estranhos (como .net ou .xyz), além de criar urgência, como neste exemplo."
+            },
+            "c": {
+                "texto": "https://www.google.com",
+                "explicacao": "Esta alternativa está incorreta. Este é um link de um site confiável, que é curto, direto e usa uma extensão conhecida (.com)."
+            }            
+        },
+        "resposta_correta": "b"
+    }
+}

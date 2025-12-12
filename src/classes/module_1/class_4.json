@@ -1,0 +1,24 @@
+{
+    "titulo": "Fake News: O Boato que Se Espalha Mais Rápido que a Verdade",
+    "conteudo": "Notícias falsas são criadas para provocar emoções fortes, fazendo com que sejam compartilhadas rapidamente. Entender como identificá-las é crucial para proteger suas decisões e a segurança dos seus contatos.",
+    "exemplo_ludico": "Pense na internet como uma grande Praça Central, onde muitas pessoas se reúnem. É fácil encontrar informação confiável (o jornal de um dia), mas também é fácil encontrar boatos (fofocas) que se espalham de boca em boca. A Fake News (Notícia Falsa) é um desses boatos. Ela é criada para ser exagerada e chamar a atenção (\"urgente!\", \"inacreditável!\"), fazendo com que você a repasse sem pensar. Ela é perigosa porque te faz tomar decisões erradas (como fugir de uma vacina, ou investir em algo que não existe).",
+    "explicacao_contextualizada": "As notícias falsas são desenhadas para provocar emoções fortes (medo, raiva, indignação) para que você clique e compartilhe rapidamente. Elas são fáceis de encontrar porque:\n\n- **Velocidade:** Se espalham muito mais rápido que a verdade nas redes sociais e WhatsApp.\n- **Falta de Fonte:** Quase sempre não citam um jornal, site ou pessoa confiável que confirme a informação.\n- **Intenção:** Podem ser usadas por golpistas para te atrair a um link falso ou para que você desconfie de instituições importantes (como bancos ou hospitais).\n\nPara se proteger, é preciso ter o \"Farol da Dúvida\" sempre ligado.",
+    "pergunta": {
+        "enunciado": "Você está no Facebook e vê uma notícia alarmante sobre a saúde que não saiu na TV. Qual é a melhor atitude a tomar para evitar cair em uma Fake News?",
+        "alternativas": {
+            "a": {
+                "texto": "Compartilhar imediatamente para alertar os amigos.",
+                "explicacao": "Esta alternativa está incorreta. Compartilhar sem verificar é exatamente o que a notícia falsa quer que você faça, ajudando a espalhar a desinformação."
+            },
+            "b": {
+                "texto": "Ligar para seu médico para perguntar se a notícia é verdade.",
+                "explicacao": "Esta alternativa está incorreta. Embora você possa consultar um médico, a maneira mais rápida e eficiente de verificar uma notícia é por meio de fontes confiáveis de imprensa."
+            },
+            "c": {
+                "texto": "Desconfiar e verificar se a mesma notícia está sendo publicada por jornais ou sites de notícias de credibilidade.",
+                "explicacao": "Esta alternativa está correta. Se a notícia for importante, ela estará em veículos de imprensa confiáveis. A regra é: Não compartilhe. Verifique! Use o 'Farol da Dúvida' para buscar a fonte original."
+            }            
+        },
+        "resposta_correta": "c"
+    }
+}
