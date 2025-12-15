@@ -27,6 +27,30 @@ export class ClassesService {
         }
     }
 
+    async getModuleById(moduleId: string) {
+        try {
+            const filePath = path.join(
+                process.cwd(),
+                'src',
+                'classes',
+                `module_${moduleId}`,
+                `module.json`
+            );
+
+            const fileContent = await fs.readFile(filePath, 'utf-8');
+
+            return JSON.parse(fileContent);
+
+        } catch (error) {
+            if (error.code === 'ENOENT') {
+                throw new NotFoundException(`Módulo ${moduleId} não encontrado`);
+            }
+
+            console.error("Erro ao ler módulo:", error);
+            throw error;
+        }
+    }
+
     // CLASSES ================================================================================
 
     async getAllClasses(moduleId: string): Promise<number[]> {
