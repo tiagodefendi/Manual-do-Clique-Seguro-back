@@ -9,7 +9,7 @@ import { ClassesModule } from './classes/classes.module';
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
-    SupabaseModule,
+    // SupabaseModule,
     AuthModule,
     ClassesModule,
   ],
